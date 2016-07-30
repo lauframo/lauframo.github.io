@@ -5,78 +5,80 @@
     <title> Studio Ghibli Foods</title>
   </head>
   <body>
-   <h1> Studio Ghibli Foods </h1>
-    <br>
-    <br>
-    <br>
-    
-    <nav> 
-      <a href="http://www.fiction-food.com/p/food-from-world-of-studio-ghibli.html"> Fiction-Food Cafe</a>
-      <a href="https://www.tumblr.com/tagged/ghibli-food">Tumblr</a>
-      <a href="https://www.pinterest.com/neboillustrates/food-via-studio-ghibli/"> Pinterest</a>
-
-      <a href="bonus.html"> Ghibli Eating </a>
-    </nav>
-
-    <h3> Whenever I watch a Ghibli film, I have at least one moment during the film where I want to gobble up all the food shown. Yum. </h3>
-
-    <table>
-      <tr> 
-        <td width="80"> <img src = "https://i.kinja-img.com/gawker-media/image/upload/s--Sexa6jSJ--/c_fit,fl_progressive,q_80,w_636/spmobrksfytoepz5wr9e.gif"/> </td>
-        <td width="80" rowspan="2"> <img src = "https://i.kinja-img.com/gawker-media/image/upload/s--IWOB5MgX--/c_fit,fl_progressive,q_80,w_636/ho5pp9x1ewsft6aexvgp.gif"/></td>
-        </tr>
-        <tr>
-        <td><img src ="https://i.kinja-img.com/gawker-media/image/upload/s--IJNOV_Jz--/c_fit,fl_progressive,q_80,w_636/ttzshlpx74urlyc46ugl.gif"/></td>
-        <td>  &nbsp; </td>
-        </tr>
-  </table>
-
-  <br> 
-  <br>
-
-
-  <h4> If you are looking for some some of the top Ghibli food shots, here are a few worth checking:</h4>
-
-  <ul>
-    <li>Ponyo</li>
-    <li>Spirited Away</li>
-    <li>My Neighbor Totoro </li>
-  </ul>
-  <br>
-  <br>
-
-  <form action="https://httpbin.org/post" method="post" name="movie_form">
-       <label>What is your Favorite Ghibli Food Movie?</label>
+     <div class="navigationbar">
+       <h1> studio ghibli foods </h1>
         <br>
-        <select name="movie">
-         <option value="Castle">Castle in the Sky</option>
-         <option value="Kiki's">Kiki's Delivery Service</option>
-         <option value="Totoro">My Neighbor Totoro</option>
-          <option value="Ponyo">Ponyo</option>
-          <option value="Spirited">Spirited Away</option>  
-   +    </select>
-
-   <button type="submit">Submit</button>
-   </form>
-
-  <p>If you are looking to recreate one of these meals in real life, checkout <a href="https://www.youtube.com/watch?v=TNVa3zlkclY"> this video </a></p>
-
-  <br><br>
-
-  <p> If you are looking for a Ghibli food that is much easier on the eyes, checkout <a href="https://www.buzzfeed.com/christinalan/heres-how-to-eat-everything-youve-ever-wanted-fr?utm_term=.nurvbdgXK#.alxRbdaZ2"> this Buzzfeed post </a>
-
-  <br>
-  You will see this page actually fits your browser window, has a comment section and allows you to browse to other fun content </p>
-
-
-  <br><br>
-
-
-
-
-
-  <footer> Image credit to Studio Ghibli.1-4-25, Kajino-cho Koganei-shi, 184 Japan </footer>
-
-
+        <br>
+        <br> 
+        <nav id="links"> 
+          <a href="http://www.fiction-food.com/p/food-from-world-of-studio-ghibli.html"> Fiction-Food Cafe</a>
+          <a href="https://www.tumblr.com/tagged/ghibli-food">Tumblr</a>
+          <a href="https://www.pinterest.com/neboillustrates/food-via-studio-ghibli/"> Pinterest</a>
+          <a href="bonus.html"> Ghibli Eatin' </a>
+        </nav>
+      </div>      
+      <main>
+        <div class="imagetable">
+          <h3> Whenever I watch a Ghibli film, I have at least one moment during the film where I want to gobble up all the food shown. Yum. 
+          </h3>
+          <table>
+              <tr> 
+              <td> 
+                <img src="https://i.kinja-img.com/gawker-media/image/upload/s--Sexa6jSJ--/c_fit,fl_progressive,q_80,w_636/spmobrksfytoepz5wr9e.gif" class="smallimage" alt="From up on poppy hill"> </td>
+              <td rowspan="2"> 
+                <img src = "https://i.kinja-img.com/gawker-media/image/upload/s--IWOB5MgX--/c_fit,fl_progressive,q_80,w_636/ho5pp9x1ewsft6aexvgp.gif" alt="Ponyo Ramen"/></td>
+              </tr>
+              <tr>
+              <td>
+                <img src ="https://i.kinja-img.com/gawker-media/image/upload/s--IJNOV_Jz--/c_fit,fl_progressive,q_80,w_636/ttzshlpx74urlyc46ugl.gif" class="smallimage" alt="Spirited Away"></td>
+              <td>  &nbsp; </td>
+              </tr>
+           </table>
+          </div> 
+          <br> 
+          <br>
+          <h4> If you are looking for some some of the top Ghibli food shots, here are a few worth checking:
+          </h4>
+          <ul>
+            <li>Ponyo</li>
+            <li>Spirited Away</li>
+            <li>My Neighbor Totoro </li>
+          </ul>
+          <br>
+          <br>
+          <div class="survey">
+            <form action="https://httpbin.org/post" method="post" name="movie_form">
+              <label>What is your Favorite Ghibli Food Movie?</label>
+              <br>
+              <br>
+              <select name="movie">
+                <option value="Castle">Castle in the Sky</option>
+                <option value="Kiki's">Kiki's Delivery Service</option>
+                <option value="Totoro">My Neighbor Totoro</option>
+                <option value="Ponyo">Ponyo</option>
+                <option value="Spirited">Spirited Away</option>  
+              </select>
+              <br>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+            <br><br><br>
+         <p>If you are looking to recreate one of these meals in real life, checkout this video: 
+        <br><br><br>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TNVa3zlkclY"  allowfullscreen></iframe>
+        </p>
+        <br>
+        <br>
+        <p> If you are looking for a Ghibli food that is much easier on the eyes, checkout 
+          <a href="https://www.buzzfeed.com/christinalan/heres-how-to-eat-everything-youve-ever-wanted-fr?utm_term=.nurvbdgXK#.alxRbdaZ2"> this Buzzfeed post 
+          </a>
+          <br>
+          You will see this page actually fits your browser window, has a comment section and allows you to browse to other fun content. 
+        </p>
+        <br>
+        <br>
+        <br>
+        <footer> Image credit to Studio Ghibli.1-4-25, Kajino-cho Koganei-shi, 184 Japan </footer>
+      </main>
   </body>
   </html>

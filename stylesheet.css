@@ -1,3 +1,87 @@
+
 body {
-  background-color: blue;
+  margin-top: 0px;
 }
+.navigationbar {
+  margin-top: 0px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+#links {
+  background-color: white;
+  font-family: georgia;
+  float:right;
+  text-align: left;
+  margin-right: 600px;
+  vertical-align: bottom;
+  margin-top: -30px;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size:40px;
+  float: left;
+  margin-top: 0px;
+}
+a {
+  padding-left:5px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+}
+
+main {
+   position: absolute;
+   max-width: 960px;
+   font-family: Helvetica;
+   margin-right: 400px;
+   margin-left: 100px;
+   margin-top: 80px;
+   z-index: -1;
+}
+
+h3 {
+  text-align: center;
+}
+
+.smallimage {
+  max-height: 250px;
+  max-width: 600px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.survey {
+  margin: auto;
+  width: 100%;
+  min-height: 100px;
+  text-align: center; 
+  background-image: url(http://paper-fiber.ch/chako/themes/default/images/header750x100.jpg);
+}
+
+.bonusimages {
+  display: block;
+  margin: auto;
+  width: 40%
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    font-size: 20px;
+  }
+}
+
